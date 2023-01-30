@@ -1,0 +1,90 @@
+
+  body {
+    background-color: #F2F2F2;
+  }
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  #options {
+    display: flex;
+    justify-content: center;
+  }
+  #options button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  #options button:hover {
+    background-color: #2980B9;
+  }
+  #scores {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #scores p {
+    font-size: 18px;
+    margin: 0 20px;
+  }
+  #result-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3498DB;
+  }
+  #rules-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  #rules-button:hover {
+    background-color: #2980B9;
+  }
+  #rules-popup {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #3498DB;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #3498DB;
+    background-color: antiquewhite;
+  }
+  #rules-popup h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498DB;
+  }
+  #close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #E74C3C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  #close-button:hover {
+    background-color: #C0392B;
+  }
+
